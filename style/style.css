@@ -19,6 +19,7 @@
 .main-header{
     padding-top: 20px;
     background-color: #000000;
+    position: relative;
 }
 
 .nav-manu{
@@ -131,6 +132,39 @@
     height: 50px;
     width: 50px;
 }
+.free-number{
+    color: white;
+    border: 2px solid tomato;
+    width: 160px;
+    position:absolute ;
+    margin-top: -450px;
+    margin-left: 900px;
+    border-radius: 10px;
+    background-color: #3030308A;
+    padding: 7px 10px;
+}
+.video-number{
+    color: white;
+    border: 2px solid tomato;
+    width: 160px;
+    position: absolute;
+    margin-top:-160px ;
+    margin-left: 650px;
+    border-radius: 10px;
+    background-color:#3030308A;
+    padding: 7px 10px;
+     
+}
+.ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+    padding-left: -50px;
+    
+    
+}
+
 /* section - 2 */
 .section-2{
     text-align: center; 
@@ -152,11 +186,12 @@
 /* image section */
 .img-section{
     display: flex ;
-   justify-content: center;
+   flex-direction: column;
    padding-top: 60px;
    color: #ffffff;
    gap: 150px;
    background-color: #000000;
+   text-align: center;
 }
 
 .image-1{
@@ -165,9 +200,9 @@
 }
 
 .middle{
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
-  padding-top: 15px;
+  padding-top: 10px;
 
 }
 .middle-para{
@@ -404,7 +439,7 @@
 .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 80px;
@@ -417,8 +452,9 @@
 }
 
 .team-member img {
-    width: 100%;
-    height: auto;
+    width:400px;
+    height:300px;
+    border-radius: 20px;
    
 }
 
@@ -508,3 +544,134 @@
     border-top: 1px solid #333;
 }
 /* responsive code */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    /* nav-section-start */
+    .nav-manu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-two {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .flex-two li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .nav-logo {
+        margin-bottom: 20px;
+    }
+
+    /* section-1 */
+    .section-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .moon {
+        padding-top: 30px;
+    }
+
+    .head {
+        font-size: 50px;
+    }
+
+    .head-para {
+        font-size: 18px;
+    }
+
+    .Download-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .join-btn, .Download-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .free-number, .video-number {
+        position: static;
+        margin: 20px 0;
+    }
+
+    /* section-4 */
+    .hero-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-text button {
+        padding: 10px 30px;
+        font-size: 0.9rem;
+    }
+
+    /* section-6 */
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* section-8 */
+    .bmi-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bmi-chart, .bmi-calculator {
+        width: 100%;
+    }
+
+    .bmi-calculator form {
+        grid-template-columns: 1fr;
+    }
+
+    .bmi-calculator button {
+        width: 100%;
+    }
+
+    /* section-9 */
+    .team-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .column {
+        margin-bottom: 20px;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
+}
