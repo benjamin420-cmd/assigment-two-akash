@@ -640,13 +640,7 @@
     /* section-6 */
     .grid-container {
         grid-template-row: 1fr;
-        width: 380px;
        
-    }
-   
-    }
-    .section-6 p{
-       font-size: 10px;
     }
 
     /* section-8 */
@@ -655,8 +649,7 @@
         text-align: center;
     }
 
-    .bmi-chart, 
-    .bmi-calculator {
+    .bmi-chart, .bmi-calculator {
         width: 100%;
         padding-top: 20px;
     }
@@ -690,7 +683,7 @@
     }
 
     .footer .column {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .footer ul {
