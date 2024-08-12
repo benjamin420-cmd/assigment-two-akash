@@ -610,7 +610,7 @@
     }
     .img-section{
         flex-direction: column;
-        gap: 10px;
+        gap: 50px;
     }
 
     /* section-4 */
@@ -659,6 +659,9 @@
 
     .bmi-calculator button {
         width: 200px;
+    }
+    .bmi-calculator input{
+        width: 100px;
     }
 
     /* section-9 */
