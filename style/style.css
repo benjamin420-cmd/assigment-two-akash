@@ -71,7 +71,6 @@
 .moon{
     padding-top: 60px;
     color: white;
- 
 }
 
 .head{
@@ -146,23 +145,28 @@
 .video-number{
     color: white;
     border: 2px solid tomato;
-    width: 160px;
+    width: 180px;
     position: absolute;
     margin-top:-160px ;
     margin-left: 650px;
     border-radius: 10px;
     background-color:#3030308A;
-    padding: 7px 10px;
+    padding: 10px 10px;
+    display: flex;
+    gap: 6px;
      
 }
 .ball{
     height: 30px;
-    width: 30px;
+    width: 50px;
     border-radius: 50%;
     background-color: red;
     padding-left: -50px;
-    
-    
+}
+.font-shape{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* section - 2 */
@@ -266,7 +270,7 @@
     color:#ffffff;
     padding-top:50px ;
     text-align:center;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 .section-5-para{
     font-size: 15px;
@@ -646,6 +650,7 @@
 
     .bmi-chart, .bmi-calculator {
         width: 100%;
+        padding-top: 20px;
     }
 
     .bmi-calculator form {
@@ -653,7 +658,7 @@
     }
 
     .bmi-calculator button {
-        width: 100%;
+        width: 200px;
     }
 
     /* section-9 */
