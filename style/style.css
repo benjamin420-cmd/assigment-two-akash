@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width:1060px ;
+    margin: 0 auto;
+}
+/* nav-section-start */
+
+.main-header{
+    padding-top: 20px;
+    background-color: #000000;
+}
+
+.nav-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.flex-two{
+    display: flex;
+
+}
+.flex-two li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+.flex-two li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.nav-logo{
+ color: #ff4b2f;
+ font-size: 36px;
+
+}
+.nav-item{
+    border: 1px solid #ffffff ;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 0;
+    
+}
+.flex-home{
+   background-color: #E6533C;
+   border-radius: 10px;
+   padding: 10px 10px 10px 20px;
+
+}
+/* nav-section-end */
+
+/* section - 1 */
+
+.section-1{
+    display: flex;
+    gap: 50px;
+ 
+}
+.moon{
+    padding-top: 60px;
+    color: white;
+ 
+}
+
+.head{
+    font-size: 90px;
+}
+.head-para{
+    font-size: 20;
+    color: rgb(182, 182, 182);
+    padding-bottom: 10px;
+   padding-top: 20px;
+}
+.Download-section{
+    padding-top: 20px;
+    gap: 10px;
+    
+}
+.join-btn{
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 10px 20px 30px;
+    background-color: #ff4b2f;
+    color: white;
+    font-size: 15px;
+    border: none;
+   
+}
+.Download-btn{
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 10px 20px 30px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+    border: none;
+}
+.button-hed{
+  border: 2px solid tomato;
+  width: 160px;
+  color: white;
+  justify-content: center;
+  padding-top: 10px;
+
+}
+.button-para{
+    border: 2px solid tomato;
+    width: 200px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 30px ;
+    background-color: #FFFFFF1A;
+}
+.red{
+    background-color: #E6533C;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+/* section - 2 */
+.section-2{
+    text-align: center; 
+    color:#ffffff;
+    padding-top: 70px;
+    background-color: #000000;
+}
+
+.section-love{
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.section-hall{
+    font-size: 15px;
+    color: rgb(156, 156, 156);
+}
+/* section - 3 */
+/* image section */
+.img-section{
+    display: flex ;
+   justify-content: center;
+   padding-top: 60px;
+   color: #ffffff;
+   gap: 150px;
+   background-color: #000000;
+}
+
+.image-1{
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.middle{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+
+}
+.middle-para{
+    color: #e7e7e7;
+    padding-top: 10px;
+}
+/* section - 4 */
+.section-4{
+    background-color: #000000;
+    padding: 50px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-color: #464545;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 50px auto ;
+    gap: 100px;
+   
+}
+.hero-text {
+    /* max-width: 500px; */
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #acaaaa;
+}
+.hero-text button {
+    background-color: #ff6347; /* Red button */
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    justify-items: center;
+    align-items: center ;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+/* section - 5 */
+ .section-5{
+    background-color: #000000; 
+ }
+
+.section-5-head{
+    font-size: 40px;
+    color:#ffffff;
+    padding-top:50px ;
+    text-align:center;
+    padding-top: 80px;
+}
+.section-5-para{
+    font-size: 15px;
+    color:#c4c4c4;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+/* section - 6 */
+  .section-6{
+    background-color: #000000;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 10px;
+ 
+}
+
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14px;
+}
+
+.overlay p {
+    margin: 1px;
+    padding-top: 5px 5px;
+   color: #a09f9f;
+}
+.section-4-para{
+    color: #a59f9f;
+}
+/* section - 7 */
+.section-7{
+    background-color: #000000;
+}
+.section-7-head{
+    color:#ffffff;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 80px;
+}
+.section-7-para{
+    color:#868282 ;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+/* section - 8 */
+.section-8{
+    background-color: #000000; 
+}
+
+.bmi-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 10px;
+    color: rgb(145, 137, 137);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bmi-chart {
+    width: 45%;
+}
+
+.bmi-chart h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.bmi-chart th, .bmi-chart td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+.bmi-calculator {
+    width: 45%;
+}
+
+.bmi-calculator h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bmi-calculator p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.bmi-calculator form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.bmi-calculator input, .bmi-calculator select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.bmi-calculator button {
+    grid-column: span 2;
+    padding: 15px ;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4a4a;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+   
+}
+
+/* section - 9 */
+
+.section-9{
+    background-color: #000000;
+}
+.section-9-head{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+.section-9-para{
+    color: #c0b9b9;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* section - 9 image section  */
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.team-member {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+   
+}
+
+.team-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color:#ffffff;
+    text-align: left;
+}
+
+.team-info h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.team-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #b1acac; /* Light grey color for the role */
+}
+/*  section - 10 */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 40px 60px;
+    background-color: #666060;
+}
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 60px;
+    background-color: #2d2d2d;
+}
+
+.footer h2 {
+    color: #f45b42;
+    font-size: 32px;
+}
+
+.footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+    max-width: 300px;
+}
+
+.footer .column {
+    max-width: 400px;
+
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    padding: 30px;
+    background-color: #1c1c1c;
+    font-size: 14px;
+    color: #ccc;
+    border-top: 1px solid #333;
+}
+/* responsive code */
